@@ -70,3 +70,17 @@ $ pip install mysqlclient
 
 Documentation is hosted on [Read The Docs](https://mysqlclient.readthedocs.io/)
 
+# Mariadb Connector C
+
+If you want to build against mariadb-connector-c download it from https://mariadb.com/downloads/#connectors
+
+Make sure it's installed under `C:\Program Files (x86)\mariadb-connector-c` with the following folder structure:
+- C:\Program Files (x86)\mariadb-connector-c\bin
+- C:\Program Files (x86)\mariadb-connector-c\include
+- C:\Program Files (x86)\mariadb-connector-c\include\mysql
+- C:\Program Files (x86)\mariadb-connector-c\lib
+- C:\Program Files (x86)\mariadb-connector-c\lib\mariadb
+- C:\Program Files (x86)\mariadb-connector-c\lib\mariadb\plugin
+- C:\Program Files (x86)\mariadb-connector-c\lib\plugin
+
+(didn't try with win64 yet
